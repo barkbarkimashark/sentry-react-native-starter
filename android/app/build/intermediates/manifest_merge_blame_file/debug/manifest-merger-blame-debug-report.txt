@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.awesomeproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/gszeto/code/AwesomeProject/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/gszeto/code/AwesomeProject/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/gszeto/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/gszeto/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:sentry_react-native] /Users/gszeto/code/AwesomeProject/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+14-->[:sentry_react-native] /Users/gszeto/code/AwesomeProject/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+15
+16    <application
+16-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-25:19
+17        android:name="com.awesomeproject.MainApplication"
+17-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:7-38
+18        android:allowBackup="false"
+18-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:11:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] /Users/gszeto/.gradle/caches/transforms-3/f382564408e8806e991bcb7c984abfd6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:7-41
+22        android:label="@string/app_name"
+22-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-39
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-52
+24        android:theme="@style/AppTheme"
+24-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-38
+25        android:usesCleartextTraffic="true" >
+25-->/Users/gszeto/code/AwesomeProject/android/app/src/debug/AndroidManifest.xml:8:9-44
+26        <activity
+26-->/Users/gszeto/code/AwesomeProject/android/app/src/debug/AndroidManifest.xml:11:9-111
+27            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+27-->/Users/gszeto/code/AwesomeProject/android/app/src/debug/AndroidManifest.xml:11:19-83
+28            android:exported="false" />
+28-->/Users/gszeto/code/AwesomeProject/android/app/src/debug/AndroidManifest.xml:11:84-108
+29        <activity
+29-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:7-24:18
+30            android:name="com.awesomeproject.MainActivity"
+30-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:9-37
+31            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+31-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:9-118
+32            android:exported="true"
+32-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:9-32
+33            android:label="@string/app_name"
+33-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-41
+34            android:launchMode="singleTask"
+34-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:9-40
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-51
+36            <intent-filter>
+36-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:9-23:25
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:13-65
+37-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:13-73
+39-->/Users/gszeto/code/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:23-70
+40            </intent-filter>
+41        </activity>
+42
+43        <meta-data
+43-->[:sentry_react-native] /Users/gszeto/code/AwesomeProject/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-15:37
+44            android:name="io.sentry.auto-init"
+44-->[:sentry_react-native] /Users/gszeto/code/AwesomeProject/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+45            android:value="false" /> <!-- 'android:authorities' must be unique in the device, across all apps -->
+45-->[:sentry_react-native] /Users/gszeto/code/AwesomeProject/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-34
+46        <provider
+46-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:14:9-17:40
+47            android:name="io.sentry.android.core.SentryInitProvider"
+47-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:15:13-69
+48            android:authorities="com.awesomeproject.SentryInitProvider"
+48-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:16:13-70
+49            android:exported="false" />
+49-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:17:13-37
+50        <provider
+50-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:18:9-22:39
+51            android:name="io.sentry.android.core.SentryPerformanceProvider"
+51-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:19:13-76
+52            android:authorities="com.awesomeproject.SentryPerformanceProvider"
+52-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:20:13-77
+53            android:exported="false"
+53-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:21:13-37
+54            android:initOrder="200" />
+54-->[io.sentry:sentry-android-core:5.7.0] /Users/gszeto/.gradle/caches/transforms-3/d47fcff2891b1a45d1a4274d81fb000f/transformed/jetified-sentry-android-core-5.7.0/AndroidManifest.xml:22:13-36
+55        <provider
+55-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/gszeto/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+56            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/gszeto/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+57            android:authorities="com.awesomeproject.lifecycle-process"
+57-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/gszeto/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+58            android:exported="false"
+58-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/gszeto/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+59            android:multiprocess="true" />
+59-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/gszeto/.gradle/caches/transforms-3/9dd542b615606b647ee7cfef5fb0744e/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+60    </application>
+61
+62</manifest>
